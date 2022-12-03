@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1625780618 source:c:\users\dell\onedrive\bureau\bank\main.c
+	"librairies.h"
+
+1625778779 c:\users\dell\onedrive\bureau\bank\bank.h
+
+1625782262 source:c:\users\dell\onedrive\bureau\bank\bank.c
+	"librairies.h"
+
+1625615338 c:\users\dell\onedrive\bureau\bank\librairies.h
+	"bank.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1625780618 source:c:\users\hp\desktop\aicha_js\bank\main.c
+	"librairies.h"
+
+1625615338 c:\users\hp\desktop\aicha_js\bank\librairies.h
+	"bank.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1625778779 c:\users\hp\desktop\aicha_js\bank\bank.h
+
+1625782855 source:c:\users\hp\desktop\aicha_js\bank\bank.c
+	"librairies.h"
+
+1626775149 source:d:\langage c\tp\projet\banks\bank.c
+	"librairies.h"
+
+1626775204 d:\langage c\tp\projet\banks\librairies.h
+	"bank.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1626775159 d:\langage c\tp\projet\banks\bank.h
+
+1626775208 source:d:\langage c\tp\projet\banks\main.c
+	"librairies.h"
+

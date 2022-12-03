@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1626956019 source:d:\langage c\tp\chap6\bango\main.c
+	"biblio.h"
+
+1626956997 d:\langage c\tp\chap6\bango\biblio.h
+	"vente.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1626957614 d:\langage c\tp\chap6\bango\vente.h
+	"biblio.h"
+

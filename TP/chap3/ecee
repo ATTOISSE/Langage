@@ -1,0 +1,54 @@
+ #include<stdio.h>
+ #include<math.h>
+main()
+{
+    int  n,i,j,som=0,nb1,somme,sm=0,k;
+    int cpt=0,p=1;
+    float moy;
+    do{
+    puts("donner une valeur");
+    scanf("%d",&n);}
+    while(n<=0);
+
+  while(!(n==1000))
+   {
+        printf("donner la %d valeur\n");
+        scanf("%d",&n);
+        for(j=1;j<=n/2;j++){
+
+         if((j*j==n) && (n%j==0)){
+        som+=n;}}
+        if(n%2==0){
+        p*=n;}
+      else if(n%2==1){
+        cpt++;}
+       somme= 0;
+        for(k=0;k<=n;k++)
+        {
+            if(n%k==0)
+            {
+                somme +=k;
+            }
+        }
+        if(somme == n)
+        {
+            sm +=n;
+            nb1++;
+        }
+        n++;
+
+}
+
+
+   (som==0)?puts("aucun nombre carre"):printf("somme des nombre carre:%d\n",som);
+   (p==1)?puts("aucun nombre pair"):printf("produit des nombres pair:%d\n",p);
+    printf(" le nombre impair est %d",cpt);
+   if(nb1==0)
+    puts("aucun nombre parfait");
+   else{
+    moy=(float)sm/nb1;
+    printf("moyenne des nombres parfait :%.2f",moy);
+   }
+
+}
+

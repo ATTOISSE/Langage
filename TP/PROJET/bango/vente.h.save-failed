@@ -1,0 +1,115 @@
+#include"biblio.h"
+/*
+typedef struct{
+    int ss, mn, h, j, mm, aa;
+}DATE;
+
+
+typedef struct{
+    int id,nbr_Element,liste;
+    char libelle[30];
+}CATEGORIE;
+
+
+typedef struct{
+    int prix,qteStock,liste;
+    char designation[30],code[6];
+    char categorie[30];
+    char dateAjout[20];
+}ARTICLE;
+
+
+typedef struct{
+    int id,etat,supAdmin,nbreElement;
+    char nom[30],prenom[30],tel[20],fonct[20],bloque[20];
+    char login[6],mdp[20];
+}USERS;
+
+
+typedef struct{
+    int id,nbreElement;
+    char numero[20];
+    ARTICLE tabproduits;
+    int montants;
+    USERS infoUsers;
+}VENTE;
+
+USERS Users,Session;
+VENTE  vente;
+ARTICLE article;
+CATEGORIE categori;
+Date date;
+int cpt_user=0,cpt_cat=0,finMontant=0,nbPro=0;
+
+
+void gotoxy(int,int);
+void color(int col);
+void nouveau_mdp();
+void ajoutUser();
+void bloque_debloque_users();
+void listUsers();
+void ajoutCategorie();
+void listCategories();
+void ajoutArticle();
+void listProduits();
+void Vente();
+void etatJournalier();
+void menuPrincipal()
+*/
+
+#include<stdlib.h>
+#include<string.h>
+#include<time.h>
+struct date
+{
+   char j,m,a;
+};
+
+typedef struct
+{
+   char nom_cat;
+   char libelle[100];
+   int id;
+}categorie;
+
+typedef struct
+{
+    char designation[100];
+    char code[7];
+    int prix;
+    int quantite;
+    struct date D;
+}article;
+
+typedef struct
+{
+    char nom[30];
+    char prenom[30];
+    char login[100];
+    int telephone;
+    int id;
+}users;
+
+typedef struct
+{
+    char nom[30];
+    char prenom[30];
+    char mot_passe_admin[30];
+    char log_admin[60];
+    int telephone;
+    int id_admin;
+}ADMIN;
+
+typedef struct
+{
+    char nom[30];
+    char prenom[30];
+    char mdpass[30];
+    char log_uti[60];
+    int numero;
+    int id_uti;
+}UTILIS;
+
+
+
+

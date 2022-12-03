@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1624551089 source:d:\langage c\tp\chap6\gestione\gestion.c
+	<stdio.h>
+	"gestion.h"
+
+1623243829 d:\langage c\tp\chap6\gestione\gestion.h
+
+1624551089 source:d:\langage c\tp\chap6\gestione\main.c
+	<stdio.h>
+	"gestion.h"
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1623161128 source:c:\users\dell\onedrive\bureau\football\main.c
+	"football.h"
+
+1623160826 c:\users\dell\onedrive\bureau\football\football.h
+	<stdio.h>
+
+1623162277 source:c:\users\dell\onedrive\bureau\football\football.c
+	"football.h"
+
+1624503792 source:d:\langage c\tp\chap6\football\football.c
+	"football.h"
+
+1623160826 d:\langage c\tp\chap6\football\football.h
+	<stdio.h>
+
+1624500304 source:d:\langage c\tp\chap6\football\main.c
+	<stdio.h>
+	"football.h"
+

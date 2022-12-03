@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1625659961 source:c:\l1 gl\language c\tp\wadial projet bank\main.c
+	"bank.h"
+
+1625658381 c:\l1 gl\language c\tp\wadial projet bank\bank.h
+
+1625658407 source:c:\l1 gl\language c\tp\wadial projet bank\bank.c
+	"librairies.h"
+
+1625653790 c:\l1 gl\language c\tp\wadial projet bank\librairies.h
+	"bank.h"
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+
+1625658407 source:d:\langage c\tp\wadial projet bank\bank.c
+	"librairies.h"
+
+1625653790 d:\langage c\tp\wadial projet bank\librairies.h
+	"bank.h"
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+
+1625658381 d:\langage c\tp\wadial projet bank\bank.h
+
+1626215011 source:d:\langage c\tp\wadial projet bank\main.c
+	"bank.h"
+

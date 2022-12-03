@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1626817682 source:d:\langage c\tp\chap6\vente\vente.c
+
+1626954085 source:d:\langage c\tp\chap6\vente\main.c
+	"librairie.h"
+
+1626820264 d:\langage c\tp\chap6\vente\librairie.h
+	"vente.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1626820264 d:\langage c\tp\chap6\vente\vente.h
+

@@ -1,0 +1,8 @@
+#include"bank.h"
+#include<stdio.h>
+#include<string.h>
+#include<time.h>
+#include<ctype.h>
+#define FLUSH fflush(stdin);
+#define PAUSE system("pause");
+#define CLS system("cls");

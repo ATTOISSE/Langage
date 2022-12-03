@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1626218880 source:d:\langage c\tp\chap6\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1626218793 source:d:\langage c\tp\chap6\test\test.c
+	<stdio.h>
+	"test.h"
+
+1626217978 d:\langage c\tp\chap6\test\test.h
+

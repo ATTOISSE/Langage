@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1628598925 source:d:\langage c\tp\chap6\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblio.h"
+
+1628598971 source:d:\langage c\tp\chap6\projet\vente.c
+	"biblio.h"
+
+1627085482 d:\langage c\tp\chap6\projet\biblio.h
+	"vente.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1627992098 d:\langage c\tp\chap6\projet\vente.h
+
